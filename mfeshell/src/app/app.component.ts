@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import {RouterModule, RouterOutlet} from '@angular/router';
+import {Router, RouterModule, RouterOutlet} from '@angular/router';
+import {CustomManifest} from "./utils/config";
 
 @Component({
   selector: 'app-root',
@@ -10,4 +11,9 @@ import {RouterModule, RouterOutlet} from '@angular/router';
 })
 export class AppComponent {
   title = 'mfeshell';
+  constructor( private router:Router) {
+  }
+
+  async ngOnInit():Promise<void>{
+   }
 }

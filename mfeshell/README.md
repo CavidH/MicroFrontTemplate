@@ -1,3 +1,17 @@
+Dynamic Routing from back -
+
+Sharing Dependencies -
+
+CommunicationbetweenMicroFrontends -
+
+
+    // Statik rotaları ekleyin
+    this.router.resetConfig(dynamicRoutes);
+}
+}
+
+
+
 # Mfeshell
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
