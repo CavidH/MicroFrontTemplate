@@ -61,9 +61,13 @@
 							"src/assets"
 						],
 						"styles": [
-							"src/styles.scss"
+							"src/styles.scss",
+              "src/assets/styles.css"
 						],
-						"scripts": []
+						"scripts": [
+              "src/assets/script.js"
+
+            ]
 					}
 				},
 				"esbuild": {
@@ -83,9 +87,12 @@
 							"src/assets"
 						],
 						"styles": [
-							"src/styles.scss"
+              "src/styles.scss",
+              "src/assets/styles.css"
 						],
-						"scripts": []
+						"scripts": [
+              "src/assets/scripts.js"
+            ]
 					},
 					"configurations": {
 						"production": {

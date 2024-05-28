@@ -1,3 +1,4 @@
 {
-	"mfeone": "http://localhost:4201/remoteEntry.json"
+	"mfeone": "http://localhost:4201/remoteEntry.json",
+	"mfetwo": "http://localhost:4202/remoteEntry.json"
 }
